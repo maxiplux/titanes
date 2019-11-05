@@ -5,11 +5,7 @@ def merge(array):
         right_array=array[len_array//2:]
         
         merge(left_array)
-        merge(right_array)
-
-        
-        
-
+        merge(right_array) 
         array_index=0
         left_index=0
         right_index=0
